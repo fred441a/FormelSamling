@@ -1,6 +1,6 @@
 # Formelsamling
 
-[Digital Hardware Design](DigitalHardwareDesing.md)
+[Digital Hardware Design](DigitalHardwareDesign.md)
 
 
 
