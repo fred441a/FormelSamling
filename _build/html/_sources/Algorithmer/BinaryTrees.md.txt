@@ -3,7 +3,31 @@ Binære træer er en data type hvor hver node kun har 2 børn. Dermed kan hvert 
 
 ![Binary tree](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.stack.imgur.com%2FJLOyT.png&f=1&nofb=1&ipt=97e67a0f0b308dc298d54a29e8ebe380cb465535a14f576d53e70fd1fc8fde4e&ipo=images)
 
-## Søg i Binær træer
+## binær søge træ
+tal som er større end forældrene vil atid ænde til venstre i et binær træ og tal som er større end forældre vil ende til højre i et binær træ. Dette gør det nemmere at søge i, men kan dog også være træet rimlig skævt.
+
+søge algorithmen for disse træer er oplagt:
+
+```
+
+function binary_Search(int searchNumber){
+
+    if(node = searchNumber){
+        return nodeIndex
+    }
+
+    if(node > searchNumber){
+    go left on binary trees
+    }
+
+    if( node < searchNumber) {
+    go right on binary tree
+    }
+
+}
+
+```
+
 
 ## Max Heap / Min Heap
 Heaps er binær træer med regler for strukturen af træet

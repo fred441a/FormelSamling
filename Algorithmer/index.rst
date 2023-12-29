@@ -7,3 +7,4 @@ Algorithmer
    /Algorithmer/Sorting.md
    /Algorithmer/Dynamic.md
    /Algorithmer/BinaryTrees.md
+   /Algorithmer/Graphs.md

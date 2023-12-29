@@ -16,4 +16,6 @@ Velkommen til Frederiks formelsamling
    Algorithmer/Sorting.md
    Algorithmer/Dynamic.md
    Algorithmer/BinaryTrees.md
+   Algorithmer/Graphs.md
+
 

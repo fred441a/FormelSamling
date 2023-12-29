@@ -1,8 +1,9 @@
 # Tids og størrelses kompleksitet
 
-## O thetha and omega notation
+## big O thetha and omega notation
 
 ![image](https://media.geeksforgeeks.org/wp-content/cdn-uploads/mypic.png)
+![alternative time kompleksitet](https://i.imgur.com/dQXTubC.png)
 
 | S.No.| Big O                                                                                                                                                                | Big Omega&nbsp;(Ω)                                                                                                                                             | Big Theta&nbsp;(Θ)                                                                                                                            |
 |---------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------|
@@ -11,6 +12,9 @@
 | 3.      | Big O – Upper Bound                                                                                                                                                  | Big Omega (Ω) – Lower Bound                                                                                                                                    | Big Theta (Θ) – Tight Bound                                                                                                                   |
 | 4.      | It is define as upper bound and upper bound on an algorithm is the most amount of time required ( the worst case performance).                                       | It is define as lower bound and lower bound on an algorithm is the least amount of time required ( the most efficient way possible, in other words best case). | It is define as tightest bound and tightest bound is the best of all the worst case times that the algorithm can take.                        |
 | 5.      | Mathematically: Big Oh is 0 &lt;= f(n) &lt;= Cg(n) for all n &gt;= n0                                                                                                | Mathematically: Big Omega is 0 &lt;= Cg(n) &lt;= f(n) for all n &gt;= n0                                                                                       | Mathematically – Big Theta is 0 &lt;= C2g(n) &lt;= f(n) &lt;= C1g(n) for n &gt;= n0                                                           |
+
+## little o theta and omega notation
+lille notation har som sådan de samme regler som big notation, med den undtagelse at definitaionen skal gælde for alle værider af n ( altså alle steder på funktionen ) og ikke kun i et enkelt scenarie.
 
 ## rekursive funktioner
 rekursive funtioner er funktioner der indeholder sig selv. fx:
