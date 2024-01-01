@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+
+<html lang="da" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Binær træer &#8212; Formel Samling 1.0 dokumentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=039e1c02" />
+    <script src="../_static/documentation_options.js?v=b3e9ecdb"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/translations.js?v=2a7ba72c"></script>
+    <link rel="index" title="Indeks" href="../genindex.html" />
+    <link rel="search" title="Søg" href="../search.html" />
+    <link rel="next" title="Graf teori" href="Graphs.html" />
+    <link rel="prev" title="prgrammerings paradimer" href="Dynamic.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="binaer-traeer">
+<h1>Binær træer<a class="headerlink" href="#binaer-traeer" title="Link to this heading">¶</a></h1>
+<p>Binære træer er en data type hvor hver node kun har 2 børn. Dermed kan hvert »spring« beskrives med et Binært 1 eller 0</p>
+<p><img alt="Binary tree" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fi.stack.imgur.com%2FJLOyT.png&amp;f=1&amp;nofb=1&amp;ipt=97e67a0f0b308dc298d54a29e8ebe380cb465535a14f576d53e70fd1fc8fde4e&amp;ipo=images" /></p>
+<section id="binaer-soge-trae">
+<h2>binær søge træ<a class="headerlink" href="#binaer-soge-trae" title="Link to this heading">¶</a></h2>
+<p>tal som er større end forældrene vil atid ænde til venstre i et binær træ og tal som er større end forældre vil ende til højre i et binær træ. Dette gør det nemmere at søge i, men kan dog også være træet rimlig skævt.</p>
+<p>søge algorithmen for disse træer er oplagt:</p>
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>
+<span class="n">function</span> <span class="n">binary_Search</span><span class="p">(</span><span class="nb">int</span> <span class="n">searchNumber</span><span class="p">){</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="n">node</span> <span class="o">=</span> <span class="n">searchNumber</span><span class="p">){</span>
+        <span class="k">return</span> <span class="n">nodeIndex</span>
+    <span class="p">}</span>
+
+    <span class="k">if</span><span class="p">(</span><span class="n">node</span> <span class="o">&gt;</span> <span class="n">searchNumber</span><span class="p">){</span>
+    <span class="n">go</span> <span class="n">left</span> <span class="n">on</span> <span class="n">binary</span> <span class="n">trees</span>
+    <span class="p">}</span>
+
+    <span class="k">if</span><span class="p">(</span> <span class="n">node</span> <span class="o">&lt;</span> <span class="n">searchNumber</span><span class="p">)</span> <span class="p">{</span>
+    <span class="n">go</span> <span class="n">right</span> <span class="n">on</span> <span class="n">binary</span> <span class="n">tree</span>
+    <span class="p">}</span>
+
+<span class="p">}</span>
+
+</pre></div>
+</div>
+</section>
+<section id="max-heap-min-heap">
+<h2>Max Heap / Min Heap<a class="headerlink" href="#max-heap-min-heap" title="Link to this heading">¶</a></h2>
+<p>Heaps er binær træer med regler for strukturen af træet</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p><strong>Max Heap</strong></p></th>
+<th class="head"><p><strong>Min Heap</strong></p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>forældre &gt;= børn</p></td>
+<td><p>forældre &lt;= børn</p></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="sort-rod-traeer">
+<h2>Sort Rød træer<a class="headerlink" href="#sort-rod-traeer" title="Link to this heading">¶</a></h2>
+<p>Sort røde træer deler nodes op i 2 farver med disse regler</p>
+<ol class="arabic simple">
+<li><p>hver node skal enten være rød eller sort</p></li>
+<li><p>roden skal altid være sort</p></li>
+<li><p>røde nodes må ikke have røde forældre eller børn</p></li>
+<li><p>hver slut node »null« node skal være sort</p></li>
+<li><p>der skal altid være den samme mængde sorte nodes mellem roden og null nodes.</p></li>
+</ol>
+</section>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Formel Samling</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="reference internal" href="index.html">Algorithmer</a><ul class="current">
+<li class="toctree-l2"><a class="reference internal" href="Hashmaps.html">Hashmaps / Hash tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kompleksitet.html">Tids og størrelses kompleksitet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sorting.html">Sorterings algorithmer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Dynamic.html">prgrammerings paradimer</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Binær træer</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#binaer-soge-trae">binær søge træ</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#max-heap-min-heap">Max Heap / Min Heap</a></li>
+<li class="toctree-l3"><a class="reference internal" href="#sort-rod-traeer">Sort Rød træer</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Graphs.html">Graf teori</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+  <li><a href="index.html">Algorithmer</a><ul>
+      <li>Previous: <a href="Dynamic.html" title="forrige kapitel">prgrammerings paradimer</a></li>
+      <li>Next: <a href="Graphs.html" title="næste kapitel">Graf teori</a></li>
+  </ul></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Hurtig søgning</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Søg" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Frederik Hansen.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="../_sources/Algorithmer/BinaryTrees.md.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

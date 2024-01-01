@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+
+<html lang="da" data-content_root="../">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Algorithmer &#8212; Formel Samling 1.0 dokumentation</title>
+    <link rel="stylesheet" type="text/css" href="../_static/pygments.css?v=4f649999" />
+    <link rel="stylesheet" type="text/css" href="../_static/alabaster.css?v=039e1c02" />
+    <script src="../_static/documentation_options.js?v=b3e9ecdb"></script>
+    <script src="../_static/doctools.js?v=888ff710"></script>
+    <script src="../_static/sphinx_highlight.js?v=dc90522c"></script>
+    <script src="../_static/translations.js?v=2a7ba72c"></script>
+    <link rel="index" title="Indeks" href="../genindex.html" />
+    <link rel="search" title="Søg" href="../search.html" />
+    <link rel="next" title="Hashmaps / Hash tables" href="Hashmaps.html" />
+    <link rel="prev" title="Velkommen til Frederiks formelsamling" href="../index.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <section id="algorithmer">
+<h1>Algorithmer<a class="headerlink" href="#algorithmer" title="Link to this heading">¶</a></h1>
+<div class="toctree-wrapper compound">
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="Hashmaps.html">Hashmaps / Hash tables</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Hashmaps.html#key">key</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Hashmaps.html#index-mapping-trivial-hashing">index mapping ( trivial hashing )</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Hashmaps.html#collision">collision</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Hashmaps.html#seperate-chaining">seperate chaining</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Hashmaps.html#open-addressing">Open addressing</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Hashmaps.html#linear-probing">linear probing</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Hashmaps.html#quadratic-probing-mid-square-method">quadratic probing ( mid-square method )</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Hashmaps.html#dobbelt-hashing">dobbelt hashing</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Hashmaps.html#universal-hashing">universal hashing</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Kompleksitet.html">Tids og størrelses kompleksitet</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Kompleksitet.html#big-o-thetha-and-omega-notation">big O thetha and omega notation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kompleksitet.html#little-o-theta-and-omega-notation">little o theta and omega notation</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kompleksitet.html#rekursive-funktioner">rekursive funktioner</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kompleksitet.html#master-theorem">Master Theorem</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kompleksitet.html#algoritme-cheat-sheet">algoritme cheat sheet</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Sorting.html">Sorterings algorithmer</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Sorting.html#heapsort">Heapsort</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sorting.html#quick-sort">Quick sort</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sorting.html#count-sort">Count sort</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sorting.html#radix-sort">Radix sort</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sorting.html#bucket-sort">Bucket sort</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Dynamic.html">prgrammerings paradimer</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Dynamic.html#dynamic-programming">Dynamic programming</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Dynamic.html#subproblem-graf-afhaengligheds-graf">subproblem graf (afhængligheds graf)</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Dynamic.html#greedy-algorithms">Greedy algorithms</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Dynamic.html#divide-and-conquer">Divide and Conquer</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="BinaryTrees.html">Binær træer</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="BinaryTrees.html#binaer-soge-trae">binær søge træ</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BinaryTrees.html#max-heap-min-heap">Max Heap / Min Heap</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BinaryTrees.html#sort-rod-traeer">Sort Rød træer</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="Graphs.html">Graf teori</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Graphs.html#ford-fulkerson-algoritme">Ford-Fulkerson Algoritme</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Graphs.html#minimum-spanning-trees">minimum spanning trees.</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Graphs.html#kruskals-algoritme">kruskals Algoritme</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Graphs.html#prims-algoritme">prims Algoritme</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="Graphs.html#korteste-vej-shortest-path-algoritmer">korteste vej ( shortest path ) Algoritmer</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="Graphs.html#bellman-ford">bellman-ford</a></li>
+<li class="toctree-l3"><a class="reference internal" href="Graphs.html#dijsktra">dijsktra</a></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</div>
+</section>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Formel Samling</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Algorithmer</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="Hashmaps.html">Hashmaps / Hash tables</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Kompleksitet.html">Tids og størrelses kompleksitet</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Sorting.html">Sorterings algorithmer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Dynamic.html">prgrammerings paradimer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="BinaryTrees.html">Binær træer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Graphs.html">Graf teori</a></li>
+</ul>
+</li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="../index.html" title="forrige kapitel">Velkommen til Frederiks formelsamling</a></li>
+      <li>Next: <a href="Hashmaps.html" title="næste kapitel">Hashmaps / Hash tables</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Hurtig søgning</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"/>
+      <input type="submit" value="Søg" />
+    </form>
+    </div>
+</div>
+<script>document.getElementById('searchbox').style.display = "block"</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2023, Frederik Hansen.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 7.2.6</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.13</a>
+      
+      |
+      <a href="../_sources/Algorithmer/index.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>

@@ -1,4 +1,0 @@
-# Algorithmer
-
-## [Hashmaps](/Algorithmer/Hashmaps.md)
-
