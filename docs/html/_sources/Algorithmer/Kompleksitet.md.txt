@@ -23,6 +23,24 @@ t(n) = 1+t(2/n)
 ## Master Theorem
 ![Master Theorem](https://i.imgur.com/coKFB7D.png)
 
+der findes også en udvidet master Theorem
+
+ud fra formlen 
+
+T(n) = aT(n/b)+O(n^k\*log\_P(n))
+
+her gælder:
+
+if a > bk, then T(n) = θ(nlogba)
+if a = bk, then 
+(a) if p > -1, then T(n) = θ(nlogba logp+1n) 
+(b) if p = -1, then T(n) = θ(nlogba loglogn) 
+(c) if p < -1, then T(n) = θ(nlogba) 
+ 
+if a < bk, then 
+(a) if p >= 0, then T(n) = θ(nk logpn) 
+(b) if p < 0, then T(n) = θ(nk)
+
 ## algoritme cheat sheet
 
 | Algorithm      | Best Case | Average Case | Worst Case |

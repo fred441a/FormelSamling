@@ -65,7 +65,7 @@
 
 
 \title{Formel Samling}
-\date{02. jan., 2024}
+\date{03. jan., 2024}
 \release{1.0}
 \author{Frederik Hansen}
 \newcommand{\sphinxlogo}{\vbox{}}
@@ -277,6 +277,30 @@ t(n) = 1+t(2/n)
 \label{\detokenize{Algorithmer/Kompleksitet:master-theorem}}
 \sphinxAtStartPar
 \sphinxincludegraphics{{coKFB7D}.png}
+
+\sphinxAtStartPar
+der findes også en udvidet master Theorem
+
+\sphinxAtStartPar
+ud fra formlen
+
+\sphinxAtStartPar
+T(n) = aT(n/b)+O(n\textasciicircum{}k*log\_P(n))
+
+\sphinxAtStartPar
+her gælder:
+
+\sphinxAtStartPar
+if a \textgreater{} bk, then T(n) = θ(nlogba)
+if a = bk, then
+(a) if p \textgreater{} \sphinxhyphen{}1, then T(n) = θ(nlogba logp+1n)
+(b) if p = \sphinxhyphen{}1, then T(n) = θ(nlogba loglogn)
+(c) if p \textless{} \sphinxhyphen{}1, then T(n) = θ(nlogba)
+
+\sphinxAtStartPar
+if a \textless{} bk, then
+(a) if p \textgreater{}= 0, then T(n) = θ(nk logpn)
+(b) if p \textless{} 0, then T(n) = θ(nk)
 
 
 \subsection{algoritme cheat sheet}
@@ -585,8 +609,8 @@ Legit den her kode er så dårligt skrevet at den legit ikke giver mening. så h
 \sphinxstepscope
 
 
-\section{prgrammerings paradimer}
-\label{\detokenize{Algorithmer/Dynamic:prgrammerings-paradimer}}\label{\detokenize{Algorithmer/Dynamic::doc}}
+\section{programmerings paradimer}
+\label{\detokenize{Algorithmer/Dynamic:programmerings-paradimer}}\label{\detokenize{Algorithmer/Dynamic::doc}}
 
 \subsection{Dynamic programming}
 \label{\detokenize{Algorithmer/Dynamic:dynamic-programming}}
@@ -739,8 +763,144 @@ der skal altid være den samme mængde sorte nodes mellem roden og null nodes.
 \section{Graf teori}
 \label{\detokenize{Algorithmer/Graphs:graf-teori}}\label{\detokenize{Algorithmer/Graphs::doc}}
 
-\subsection{Ford\sphinxhyphen{}Fulkerson Algoritme}
-\label{\detokenize{Algorithmer/Graphs:ford-fulkerson-algoritme}}
+\section{Adjecency lists / Adjecency matrix}
+\label{\detokenize{Algorithmer/Graphs:adjecency-lists-adjecency-matrix}}
+\sphinxAtStartPar
+en adjacency list er en liste over hvilke nodes en anden node har edges til.
+
+\sphinxAtStartPar
+i graften til Ford\sphinxhyphen{}Fulkerson eksemplet ville det fx for v2 være
+
+
+\begin{savenotes}\sphinxattablestart
+\sphinxthistablewithglobalstyle
+\centering
+\begin{tabulary}{\linewidth}[t]{TTTTTT}
+\sphinxtoprule
+\sphinxstyletheadfamily 
+\sphinxAtStartPar
+s
+&\sphinxstyletheadfamily 
+\sphinxAtStartPar
+v1
+&\sphinxstyletheadfamily 
+\sphinxAtStartPar
+v2
+&\sphinxstyletheadfamily 
+\sphinxAtStartPar
+v3
+&\sphinxstyletheadfamily 
+\sphinxAtStartPar
+v4
+&\sphinxstyletheadfamily 
+\sphinxAtStartPar
+g
+\\
+\sphinxmidrule
+\sphinxtableatstartofbodyhook
+\sphinxAtStartPar
+0
+&
+\sphinxAtStartPar
+1
+&
+\sphinxAtStartPar
+0
+&
+\sphinxAtStartPar
+0
+&
+\sphinxAtStartPar
+1
+&
+\sphinxAtStartPar
+0
+\\
+\sphinxbottomrule
+\end{tabulary}
+\sphinxtableafterendhook\par
+\sphinxattableend\end{savenotes}
+
+\sphinxAtStartPar
+disse kan være vægtet. Det betyder bare at vægten af edgen skrives i stedet for 1
+
+
+\begin{savenotes}\sphinxattablestart
+\sphinxthistablewithglobalstyle
+\centering
+\begin{tabulary}{\linewidth}[t]{TTTTTT}
+\sphinxtoprule
+\sphinxstyletheadfamily 
+\sphinxAtStartPar
+s
+&\sphinxstyletheadfamily 
+\sphinxAtStartPar
+v1
+&\sphinxstyletheadfamily 
+\sphinxAtStartPar
+v2
+&\sphinxstyletheadfamily 
+\sphinxAtStartPar
+v3
+&\sphinxstyletheadfamily 
+\sphinxAtStartPar
+v4
+&\sphinxstyletheadfamily 
+\sphinxAtStartPar
+g
+\\
+\sphinxmidrule
+\sphinxtableatstartofbodyhook
+\sphinxAtStartPar
+0
+&
+\sphinxAtStartPar
+4
+&
+\sphinxAtStartPar
+0
+&
+\sphinxAtStartPar
+0
+&
+\sphinxAtStartPar
+14
+&
+\sphinxAtStartPar
+0
+\\
+\sphinxbottomrule
+\end{tabulary}
+\sphinxtableafterendhook\par
+\sphinxattableend\end{savenotes}
+
+\sphinxAtStartPar
+en Adjecency matrix er en matrice af disse lister
+\sphinxincludegraphics{{68f8db9b25a5a08e250b56d683bd1a3df2d9c5f5}.jpg}
+
+
+\section{dybte og bredte søgning (BFS og DFS)}
+\label{\detokenize{Algorithmer/Graphs:dybte-og-bredte-sogning-bfs-og-dfs}}
+\sphinxAtStartPar
+\sphinxincludegraphics{{3LYTPP9}.png}
+\sphinxincludegraphics{{4gJzNsJ}.png}
+
+\sphinxAtStartPar
+\sphinxincludegraphics{{dKK1LtO}.png}
+
+
+\section{topological sort}
+\label{\detokenize{Algorithmer/Graphs:topological-sort}}
+\sphinxAtStartPar
+vælg en tilfældig node. Giv den tallet 1 gå til den næste node giv den tallet 2
+sæt nodes i rækkefølge efter det største tal. nodes kan godt have flere tal
+
+\sphinxAtStartPar
+\sphinxincludegraphics{{cKChxwN}.png}
+
+
+\subsection{Ford\sphinxhyphen{}Fulkerson Algoritme / edmond karp}
+\label{\detokenize{Algorithmer/Graphs:ford-fulkerson-algoritme-edmond-karp}}
 \sphinxAtStartPar
 Bruges til at finde max netværks capacitet. Kan også give dig en iden om hvor dit netværk skal fobedres for den bedste effect
 
@@ -780,6 +940,23 @@ træer der har den mindste vægt fra 1 node ud til alle andre nodes i systemet.
 \sphinxAtStartPar
 \sphinxincludegraphics{{AW5EJcA}.png}
 
+\sphinxstepscope
+
+
+\section{korrekthed af algoritmer}
+\label{\detokenize{Algorithmer/Korrekthed:korrekthed-af-algoritmer}}\label{\detokenize{Algorithmer/Korrekthed::doc}}
+
+\section{Horners rule}
+\label{\detokenize{Algorithmer/Korrekthed:horners-rule}}
+\sphinxAtStartPar
+Det her er en dum måde at regne polynomier del by del
+
+\sphinxAtStartPar
+a\_0+x(a\_1+x(a\_2+x))
+
+
+\section{}
+\label{\detokenize{Algorithmer/Korrekthed:id1}}
 
 
 \renewcommand{\indexname}{Indeks}

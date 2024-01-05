@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.12.27)  2 JAN 2024 10:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.12.27)  3 JAN 2024 12:21
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -811,12 +811,14 @@ e
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package hyperref Info: Link coloring ON on input line 74.
+(./formelsamling.out) (./formelsamling.out)
 \@outlinefile=\write5
 \openout5 = `formelsamling.out'.
 
 Package hyperref Info: Option `pageanchor' set `false' on input line 82.
 LaTeX Font Info:    Trying to load font information for T1+qhv on input line 82
 .
+
 (/usr/share/texmf/tex/latex/tex-gyre/t1qhv.fd
 File: t1qhv.fd 2009/09/25 v1.2 font definition file for T1/qhv
 )<<ot1.cmap>><<oml.cmap>><<oms.cmap>><<omx.cmap>>
@@ -836,12 +838,11 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 dvips/tex-gyre/q-ec.enc}] [2
 
 
-]
-No file formelsamling.toc.
+] (./formelsamling.toc)
 \tf@toc=\write6
 \openout6 = `formelsamling.toc'.
 
-[1
+ [1
 
 ] [2
 
@@ -850,7 +851,7 @@ Kapitel 1.
 [1
 
 ]
-<mypic.png, id=40, 507.69675pt x 163.20975pt>
+<mypic.png, id=203, 507.69675pt x 163.20975pt>
 LaTeX Font Info:    Trying to load font information for T1+txtt on input line 1
 69.
  (/usr/share/texlive/texmf-dist/tex/latex/txfonts/t1txtt.fd
@@ -860,7 +861,7 @@ File: mypic.png Graphic file (type png)
 <use mypic.png>
 Package pdftex.def Info: mypic.png  used on input line 169.
 (pdftex.def)             Requested size: 469.75934pt x 151.01645pt.
-<dQXTubC.png, id=42, 508.14844pt x 475.7775pt>
+<dQXTubC.png, id=205, 508.14844pt x 475.7775pt>
 File: dQXTubC.png Graphic file (type png)
 <use dQXTubC.png>
 Package pdftex.def Info: dQXTubC.png  used on input line 170.
@@ -963,19 +964,86 @@ Type  H <return>  for immediate help.
 l.258 \end{tabulary}
                     
 ? 
-<coKFB7D.png, id=66, 630.10406pt x 386.94562pt>
+<coKFB7D.png, id=222, 630.10406pt x 386.94562pt>
 File: coKFB7D.png Graphic file (type png)
 <use coKFB7D.png>
 Package pdftex.def Info: coKFB7D.png  used on input line 279.
 (pdftex.def)             Requested size: 469.75981pt x 288.47853pt.
-[5] [6 <./coKFB7D.png>]
+[5]
+
+! LaTeX Error: Unicode character θ (U+03B8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.294 if a \textgreater{} bk, then T(n) = θ
+                                            (nlogba)
+? 
+
+! LaTeX Error: Unicode character θ (U+03B8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.296 ...reater{} \sphinxhyphen{}1, then T(n) = θ
+                                                  (nlogba logp+1n)
+? 
+
+! LaTeX Error: Unicode character θ (U+03B8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.297 (b) if p = \sphinxhyphen{}1, then T(n) = θ
+                                                 (nlogba loglogn)
+? 
+
+! LaTeX Error: Unicode character θ (U+03B8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.298 ...xtless{} \sphinxhyphen{}1, then T(n) = θ
+                                                  (nlogba)
+? 
+
+! LaTeX Error: Unicode character θ (U+03B8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.302 (a) if p \textgreater{}= 0, then T(n) = θ
+                                                (nk logpn)
+? 
+
+! LaTeX Error: Unicode character θ (U+03B8)
+               not set up for use with LaTeX.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.303 (b) if p \textless{} 0, then T(n) = θ
+                                            (nk)
+? 
+[6 <./coKFB7D.png>]
 LaTeX Font Info:    Font shape `T1/txtt/b/n' in size <10> not available
-(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 459.
+(Font)              Font shape `T1/txtt/bx/n' tried instead on input line 483.
  [7] [8]
-<UYALrtc.png, id=96, 462.22687pt x 520.19344pt>
+<UYALrtc.png, id=242, 462.22687pt x 520.19344pt>
 File: UYALrtc.png Graphic file (type png)
 <use UYALrtc.png>
-Package pdftex.def Info: UYALrtc.png  used on input line 621.
+Package pdftex.def Info: UYALrtc.png  used on input line 645.
 (pdftex.def)             Requested size: 462.22574pt x 520.19215pt.
  [9] [10 <./UYALrtc.png>]
 
@@ -986,7 +1054,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.644 ...65535a14f576d53e70fd1fc8fde4e&ipo=images}
+l.668 ...65535a14f576d53e70fd1fc8fde4e&ipo=images}
                                                   
 ? 
 
@@ -997,40 +1065,80 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.644 ...65535a14f576d53e70fd1fc8fde4e&ipo=images}
+l.668 ...65535a14f576d53e70fd1fc8fde4e&ipo=images}
                                                   
 ? 
 [11]
-<LAmeBLV.png, id=118, 566.115pt x 321.45094pt>
+
+Package tabulary Warning: No suitable columns! on input line 820.
+
+
+Package tabulary Warning: No suitable columns! on input line 873.
+
+<68f8db9b25a5a08e250b56d683bd1a3df2d9c5f5.jpg, id=257, 296.01791pt x 115.632pt>
+
+File: 68f8db9b25a5a08e250b56d683bd1a3df2d9c5f5.jpg Graphic file (type jpg)
+<use 68f8db9b25a5a08e250b56d683bd1a3df2d9c5f5.jpg>
+Package pdftex.def Info: 68f8db9b25a5a08e250b56d683bd1a3df2d9c5f5.jpg  used on 
+input line 879.
+(pdftex.def)             Requested size: 296.01718pt x 115.63171pt.
+
+Overfull \hbox (14.52213pt too wide) in paragraph at lines 877--880
+[]\T1/qtm/m/n/10 en Ad-je-cen-cy ma-trix er en ma-tri-ce af dis-se li-ster [] 
+ []
+
+[12 <./68f8db9b25a5a08e250b56d683bd1a3df2d9c5f5.jpg>]
+<3LYTPP9.png, id=268, 666.99188pt x 456.20438pt>
+File: 3LYTPP9.png Graphic file (type png)
+<use 3LYTPP9.png>
+Package pdftex.def Info: 3LYTPP9.png  used on input line 885.
+(pdftex.def)             Requested size: 469.76117pt x 321.30391pt.
+<4gJzNsJ.png, id=269, 845.40843pt x 458.46281pt>
+File: 4gJzNsJ.png Graphic file (type png)
+<use 4gJzNsJ.png>
+Package pdftex.def Info: 4gJzNsJ.png  used on input line 886.
+(pdftex.def)             Requested size: 469.74902pt x 254.75067pt.
+<dKK1LtO.png, id=270, 496.85625pt x 496.10344pt>
+File: dKK1LtO.png Graphic file (type png)
+<use dKK1LtO.png>
+Package pdftex.def Info: dKK1LtO.png  used on input line 889.
+(pdftex.def)             Requested size: 469.75908pt x 469.04732pt.
+ [13 <./3LYTPP9.png> <./4gJzNsJ.png>]
+<cKChxwN.png, id=278, 838.63312pt x 160.34906pt>
+File: cKChxwN.png Graphic file (type png)
+<use cKChxwN.png>
+Package pdftex.def Info: cKChxwN.png  used on input line 899.
+(pdftex.def)             Requested size: 469.7465pt x 89.81932pt.
+ [14 <./dKK1LtO.png> <./cKChxwN.png>]
+<LAmeBLV.png, id=286, 566.115pt x 321.45094pt>
 File: LAmeBLV.png Graphic file (type png)
 <use LAmeBLV.png>
-Package pdftex.def Info: LAmeBLV.png  used on input line 748.
+Package pdftex.def Info: LAmeBLV.png  used on input line 908.
 (pdftex.def)             Requested size: 469.76303pt x 266.74535pt.
- [12 <./LAmeBLV.png>]
-<KnNhvfN.png, id=133, 572.89032pt x 288.3272pt>
+<KnNhvfN.png, id=287, 572.89032pt x 288.3272pt>
 File: KnNhvfN.png Graphic file (type png)
 <use KnNhvfN.png>
-Package pdftex.def Info: KnNhvfN.png  used on input line 760.
+Package pdftex.def Info: KnNhvfN.png  used on input line 920.
 (pdftex.def)             Requested size: 469.76436pt x 236.42981pt.
-<IcjCMiY.png, id=134, 542.025pt x 283.0575pt>
+ [15 <./LAmeBLV.png>]
+<IcjCMiY.png, id=296, 542.025pt x 283.0575pt>
 File: IcjCMiY.png Graphic file (type png)
 <use IcjCMiY.png>
-Package pdftex.def Info: IcjCMiY.png  used on input line 766.
+Package pdftex.def Info: IcjCMiY.png  used on input line 926.
 (pdftex.def)             Requested size: 469.77148pt x 245.32077pt.
- [13 <./KnNhvfN.png> <./IcjCMiY.png>]
-<yIyTBjj.png, id=144, 560.0925pt x 294.34969pt>
+ [16 <./KnNhvfN.png> <./IcjCMiY.png>]
+<yIyTBjj.png, id=303, 560.0925pt x 294.34969pt>
 File: yIyTBjj.png Graphic file (type png)
 <use yIyTBjj.png>
-Package pdftex.def Info: yIyTBjj.png  used on input line 775.
+Package pdftex.def Info: yIyTBjj.png  used on input line 935.
 (pdftex.def)             Requested size: 469.77368pt x 246.87476pt.
-<AW5EJcA.png, id=145, 569.12625pt x 307.90031pt>
+<AW5EJcA.png, id=304, 569.12625pt x 307.90031pt>
 File: AW5EJcA.png Graphic file (type png)
 <use AW5EJcA.png>
-Package pdftex.def Info: AW5EJcA.png  used on input line 781.
+Package pdftex.def Info: AW5EJcA.png  used on input line 941.
 (pdftex.def)             Requested size: 469.7781pt x 254.14304pt.
-
-No file formelsamling.ind.
-[14 <./yIyTBjj.png> <./AW5EJcA.png>] (./formelsamling.aux)
+ [17 <./yIyTBjj.png> <./AW5EJcA.png>]
+(./formelsamling.ind) [18] (./formelsamling.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
@@ -1045,27 +1153,39 @@ Package rerunfilecheck Warning: File `formelsamling.out' has changed.
 (rerunfilecheck)                or use package `bookmark'.
 
 Package rerunfilecheck Info: Checksums for `formelsamling.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  E29F3287518898FCE991F0978035D105;6400.
+(rerunfilecheck)             Before: E29F3287518898FCE991F0978035D105;6400
+(rerunfilecheck)             After:  F52DF607637224B7F952862C7813FB8A;7470.
  ) 
 Here is how much of TeX's memory you used:
- 16472 strings out of 474267
- 276534 string characters out of 5749988
+ 16599 strings out of 474267
+ 279127 string characters out of 5749988
  1977555 words of memory out of 5000000
- 38251 multiletter control sequences out of 15000+600000
- 617291 words of font info for 78 fonts, out of 8000000 for 9000
+ 38354 multiletter control sequences out of 15000+600000
+ 620138 words of font info for 79 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  72i,12n,79p,348b,667s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/font
-s/type1/public/tex-gyre/qhvbi.pfb></usr/share/texmf/fonts/type1/public/tex-gyre
-/qhvr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/te
-xmf/fonts/type1/public/tex-gyre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/
-type1/public/txfonts/t1xbtt.pfb></usr/share/texlive/texmf-dist/fonts/type1/publ
-ic/txfonts/t1xtt.pfb>
-Output written on formelsamling.pdf (18 pages, 1647563 bytes).
+
+pdfTeX warning (dest): name{subsection.1.6.3} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.6.2} has been referenced but does not 
+exist, replaced by a fixed one
+
+
+pdfTeX warning (dest): name{subsection.1.6.1} has been referenced but does not 
+exist, replaced by a fixed one
+
+</usr/share/texmf/fonts/type1/public/tex-gyre/qhvb.pfb></usr/share/texmf/fonts/
+type1/public/tex-gyre/qhvbi.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/q
+hvr.pfb></usr/share/texmf/fonts/type1/public/tex-gyre/qtmb.pfb></usr/share/texm
+f/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/public/tex
+-gyre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xbt
+t.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
+Output written on formelsamling.pdf (22 pages, 2782887 bytes).
 PDF statistics:
- 196 PDF objects out of 1000 (max. 8388607)
- 144 compressed objects within 2 object streams
- 64 named destinations out of 1000 (max. 500000)
- 66 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 367 PDF objects out of 1000 (max. 8388607)
+ 300 compressed objects within 3 object streams
+ 77 named destinations out of 1000 (max. 500000)
+ 411 words of extra memory for PDF output out of 10000 (max. 10000000)
 

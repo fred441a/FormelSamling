@@ -87,6 +87,18 @@ t(n) = 1+t(2/n)</p>
 <section id="master-theorem">
 <h2>Master Theorem<a class="headerlink" href="#master-theorem" title="Link to this heading">¶</a></h2>
 <p><img alt="Master Theorem" src="https://i.imgur.com/coKFB7D.png" /></p>
+<p>der findes også en udvidet master Theorem</p>
+<p>ud fra formlen</p>
+<p>T(n) = aT(n/b)+O(n^k*log_P(n))</p>
+<p>her gælder:</p>
+<p>if a &gt; bk, then T(n) = θ(nlogba)
+if a = bk, then
+(a) if p &gt; -1, then T(n) = θ(nlogba logp+1n)
+(b) if p = -1, then T(n) = θ(nlogba loglogn)
+(c) if p &lt; -1, then T(n) = θ(nlogba)</p>
+<p>if a &lt; bk, then
+(a) if p &gt;= 0, then T(n) = θ(nk logpn)
+(b) if p &lt; 0, then T(n) = θ(nk)</p>
 </section>
 <section id="algoritme-cheat-sheet">
 <h2>algoritme cheat sheet<a class="headerlink" href="#algoritme-cheat-sheet" title="Link to this heading">¶</a></h2>
@@ -183,9 +195,15 @@ t(n) = 1+t(2/n)</p>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="Sorting.html">Sorterings algorithmer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Dynamic.html">prgrammerings paradimer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Dynamic.html">programmerings paradimer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="BinaryTrees.html">Binær træer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Graphs.html">Graf teori</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Graphs.html#adjecency-lists-adjecency-matrix">Adjecency lists / Adjecency matrix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Graphs.html#dybte-og-bredte-sogning-bfs-og-dfs">dybte og bredte søgning (BFS og DFS)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Graphs.html#topological-sort">topological sort</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Korrekthed.html">korrekthed af algoritmer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Korrekthed.html#horners-rule">Horners rule</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Korrekthed.html#id1"></a></li>
 </ul>
 </li>
 </ul>

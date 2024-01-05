@@ -1,4 +1,4 @@
-# prgrammerings paradimer
+# programmerings paradimer
 ## Dynamic programming
 Dynamic programming er er programming uden recursion. Dette er ofte opnået ved at loope igennem en funktion flere gange og gemme resultaterne. Ofte resultere dette i en hurtigere algoritme da man kan gemme resultatet for flere funktions kald som ville give det samme resultat istedet for at køre funktionen flere gange
 

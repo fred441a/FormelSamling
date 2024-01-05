@@ -22,7 +22,7 @@
 \contentsline {subsection}{\numberline {1.3.3}Count sort}{8}{subsection.1.3.3}%
 \contentsline {subsection}{\numberline {1.3.4}Radix sort}{8}{subsection.1.3.4}%
 \contentsline {subsection}{\numberline {1.3.5}Bucket sort}{8}{subsection.1.3.5}%
-\contentsline {section}{\numberline {1.4}prgrammerings paradimer}{9}{section.1.4}%
+\contentsline {section}{\numberline {1.4}programmerings paradimer}{9}{section.1.4}%
 \contentsline {subsection}{\numberline {1.4.1}Dynamic programming}{9}{subsection.1.4.1}%
 \contentsline {subsubsection}{subproblem graf (afhængligheds graf)}{9}{subsubsection*.6}%
 \contentsline {subsection}{\numberline {1.4.2}Greedy algorithms}{11}{subsection.1.4.2}%
@@ -32,10 +32,16 @@
 \contentsline {subsection}{\numberline {1.5.2}Max Heap / Min Heap}{12}{subsection.1.5.2}%
 \contentsline {subsection}{\numberline {1.5.3}Sort Rød træer}{12}{subsection.1.5.3}%
 \contentsline {section}{\numberline {1.6}Graf teori}{12}{section.1.6}%
-\contentsline {subsection}{\numberline {1.6.1}Ford\sphinxhyphen {}Fulkerson Algoritme}{12}{subsection.1.6.1}%
-\contentsline {subsection}{\numberline {1.6.2}minimum spanning trees.}{13}{subsection.1.6.2}%
-\contentsline {subsubsection}{kruskals Algoritme}{13}{subsubsection*.7}%
-\contentsline {subsubsection}{prims Algoritme}{13}{subsubsection*.8}%
-\contentsline {subsection}{\numberline {1.6.3}korteste vej ( shortest path ) Algoritmer}{14}{subsection.1.6.3}%
-\contentsline {subsubsection}{bellman\sphinxhyphen {}ford}{14}{subsubsection*.9}%
-\contentsline {subsubsection}{dijsktra}{14}{subsubsection*.10}%
+\contentsline {section}{\numberline {1.7}Adjecency lists / Adjecency matrix}{12}{section.1.7}%
+\contentsline {section}{\numberline {1.8}dybte og bredte søgning (BFS og DFS)}{13}{section.1.8}%
+\contentsline {section}{\numberline {1.9}topological sort}{14}{section.1.9}%
+\contentsline {subsection}{\numberline {1.9.1}Ford\sphinxhyphen {}Fulkerson Algoritme / edmond karp}{15}{subsection.1.9.1}%
+\contentsline {subsection}{\numberline {1.9.2}minimum spanning trees.}{15}{subsection.1.9.2}%
+\contentsline {subsubsection}{kruskals Algoritme}{16}{subsubsection*.7}%
+\contentsline {subsubsection}{prims Algoritme}{16}{subsubsection*.8}%
+\contentsline {subsection}{\numberline {1.9.3}korteste vej ( shortest path ) Algoritmer}{17}{subsection.1.9.3}%
+\contentsline {subsubsection}{bellman\sphinxhyphen {}ford}{17}{subsubsection*.9}%
+\contentsline {subsubsection}{dijsktra}{17}{subsubsection*.10}%
+\contentsline {section}{\numberline {1.10}korrekthed af algoritmer}{18}{section.1.10}%
+\contentsline {section}{\numberline {1.11}Horners rule}{18}{section.1.11}%
+\contentsline {section}{\numberline {1.12}}{18}{section.1.12}%

@@ -1,7 +1,37 @@
 # Graf teori
 
+# Adjecency lists / Adjecency matrix
 
-## Ford-Fulkerson Algoritme
+en adjacency list er en liste over hvilke nodes en anden node har edges til.
+
+i graften til Ford-Fulkerson eksemplet ville det fx for v2 være
+
+|s|v1|v2|v3|v4|g|
+|-|--|--|--|--|-|
+|0|1 |0 |0 |1 |0|
+
+disse kan være vægtet. Det betyder bare at vægten af edgen skrives i stedet for 1
+
+|s|v1|v2|v3|v4|g|
+|-|--|--|--|--|-|
+|0|4 |0 |0 |14|0|
+
+en Adjecency matrix er en matrice af disse lister
+![Adjecency graf](http://www.btechsmartclass.com/data_structures/ds_images/Graph%20Adjacency%20Matrix%201.jpg)
+
+# dybte og bredte søgning (BFS og DFS)
+![Depth first](https://i.imgur.com/3LYTPP9.png)
+![breath first](https://i.imgur.com/4gJzNsJ.png)
+
+![difference](https://i.imgur.com/dKK1LtO.png)
+
+# topological sort
+vælg en tilfældig node. Giv den tallet 1 gå til den næste node giv den tallet 2
+sæt nodes i rækkefølge efter det største tal. nodes kan godt have flere tal
+
+![Topological sort](https://i.imgur.com/cKChxwN.png)
+
+## Ford-Fulkerson Algoritme / edmond karp
 
 Bruges til at finde max netværks capacitet. Kan også give dig en iden om hvor dit netværk skal fobedres for den bedste effect
 

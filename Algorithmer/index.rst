@@ -8,3 +8,4 @@ Algorithmer
    /Algorithmer/Dynamic.md
    /Algorithmer/BinaryTrees.md
    /Algorithmer/Graphs.md
+   /Algorithmer/Korrekthed.md

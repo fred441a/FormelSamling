@@ -14,6 +14,7 @@
     <script src="../_static/translations.js?v=2a7ba72c"></script>
     <link rel="index" title="Indeks" href="../genindex.html" />
     <link rel="search" title="Søg" href="../search.html" />
+    <link rel="next" title="korrekthed af algoritmer" href="Korrekthed.html" />
     <link rel="prev" title="Binær træer" href="BinaryTrees.html" />
    
   <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
@@ -33,8 +34,68 @@
             
   <section id="graf-teori">
 <h1>Graf teori<a class="headerlink" href="#graf-teori" title="Link to this heading">¶</a></h1>
-<section id="ford-fulkerson-algoritme">
-<h2>Ford-Fulkerson Algoritme<a class="headerlink" href="#ford-fulkerson-algoritme" title="Link to this heading">¶</a></h2>
+</section>
+<section id="adjecency-lists-adjecency-matrix">
+<h1>Adjecency lists / Adjecency matrix<a class="headerlink" href="#adjecency-lists-adjecency-matrix" title="Link to this heading">¶</a></h1>
+<p>en adjacency list er en liste over hvilke nodes en anden node har edges til.</p>
+<p>i graften til Ford-Fulkerson eksemplet ville det fx for v2 være</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>s</p></th>
+<th class="head"><p>v1</p></th>
+<th class="head"><p>v2</p></th>
+<th class="head"><p>v3</p></th>
+<th class="head"><p>v4</p></th>
+<th class="head"><p>g</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0</p></td>
+<td><p>1</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>1</p></td>
+<td><p>0</p></td>
+</tr>
+</tbody>
+</table>
+<p>disse kan være vægtet. Det betyder bare at vægten af edgen skrives i stedet for 1</p>
+<table class="docutils align-default">
+<thead>
+<tr class="row-odd"><th class="head"><p>s</p></th>
+<th class="head"><p>v1</p></th>
+<th class="head"><p>v2</p></th>
+<th class="head"><p>v3</p></th>
+<th class="head"><p>v4</p></th>
+<th class="head"><p>g</p></th>
+</tr>
+</thead>
+<tbody>
+<tr class="row-even"><td><p>0</p></td>
+<td><p>4</p></td>
+<td><p>0</p></td>
+<td><p>0</p></td>
+<td><p>14</p></td>
+<td><p>0</p></td>
+</tr>
+</tbody>
+</table>
+<p>en Adjecency matrix er en matrice af disse lister
+<img alt="Adjecency graf" src="http://www.btechsmartclass.com/data_structures/ds_images/Graph%20Adjacency%20Matrix%201.jpg" /></p>
+</section>
+<section id="dybte-og-bredte-sogning-bfs-og-dfs">
+<h1>dybte og bredte søgning (BFS og DFS)<a class="headerlink" href="#dybte-og-bredte-sogning-bfs-og-dfs" title="Link to this heading">¶</a></h1>
+<p><img alt="Depth first" src="https://i.imgur.com/3LYTPP9.png" />
+<img alt="breath first" src="https://i.imgur.com/4gJzNsJ.png" /></p>
+<p><img alt="difference" src="https://i.imgur.com/dKK1LtO.png" /></p>
+</section>
+<section id="topological-sort">
+<h1>topological sort<a class="headerlink" href="#topological-sort" title="Link to this heading">¶</a></h1>
+<p>vælg en tilfældig node. Giv den tallet 1 gå til den næste node giv den tallet 2
+sæt nodes i rækkefølge efter det største tal. nodes kan godt have flere tal</p>
+<p><img alt="Topological sort" src="https://i.imgur.com/cKChxwN.png" /></p>
+<section id="ford-fulkerson-algoritme-edmond-karp">
+<h2>Ford-Fulkerson Algoritme / edmond karp<a class="headerlink" href="#ford-fulkerson-algoritme-edmond-karp" title="Link to this heading">¶</a></h2>
 <p>Bruges til at finde max netværks capacitet. Kan også give dig en iden om hvor dit netværk skal fobedres for den bedste effect</p>
 <p><img alt="Ford-Fulkerson" src="https://i.imgur.com/LAmeBLV.png" /></p>
 </section>
@@ -85,10 +146,13 @@
 <li class="toctree-l2"><a class="reference internal" href="Hashmaps.html">Hashmaps / Hash tables</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Kompleksitet.html">Tids og størrelses kompleksitet</a></li>
 <li class="toctree-l2"><a class="reference internal" href="Sorting.html">Sorterings algorithmer</a></li>
-<li class="toctree-l2"><a class="reference internal" href="Dynamic.html">prgrammerings paradimer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Dynamic.html">programmerings paradimer</a></li>
 <li class="toctree-l2"><a class="reference internal" href="BinaryTrees.html">Binær træer</a></li>
-<li class="toctree-l2 current"><a class="current reference internal" href="#">Graf teori</a><ul>
-<li class="toctree-l3"><a class="reference internal" href="#ford-fulkerson-algoritme">Ford-Fulkerson Algoritme</a></li>
+<li class="toctree-l2 current"><a class="current reference internal" href="#">Graf teori</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#adjecency-lists-adjecency-matrix">Adjecency lists / Adjecency matrix</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#dybte-og-bredte-sogning-bfs-og-dfs">dybte og bredte søgning (BFS og DFS)</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#topological-sort">topological sort</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#ford-fulkerson-algoritme-edmond-karp">Ford-Fulkerson Algoritme / edmond karp</a></li>
 <li class="toctree-l3"><a class="reference internal" href="#minimum-spanning-trees">minimum spanning trees.</a><ul>
 <li class="toctree-l4"><a class="reference internal" href="#kruskals-algoritme">kruskals Algoritme</a></li>
 <li class="toctree-l4"><a class="reference internal" href="#prims-algoritme">prims Algoritme</a></li>
@@ -101,6 +165,9 @@
 </li>
 </ul>
 </li>
+<li class="toctree-l2"><a class="reference internal" href="Korrekthed.html">korrekthed af algoritmer</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Korrekthed.html#horners-rule">Horners rule</a></li>
+<li class="toctree-l2"><a class="reference internal" href="Korrekthed.html#id1"></a></li>
 </ul>
 </li>
 </ul>
@@ -111,6 +178,7 @@
   <li><a href="../index.html">Documentation overview</a><ul>
   <li><a href="index.html">Algorithmer</a><ul>
       <li>Previous: <a href="BinaryTrees.html" title="forrige kapitel">Binær træer</a></li>
+      <li>Next: <a href="Korrekthed.html" title="næste kapitel">korrekthed af algoritmer</a></li>
   </ul></li>
   </ul></li>
 </ul>
