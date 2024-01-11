@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.12.27)  11 JAN 2024 10:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2023.12.27)  11 JAN 2024 11:37
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -877,42 +877,60 @@ Type  H <return>  for immediate help.
                                                   
 l.258 \end{tabulary}
                     
-? 2
-
-\UTFviii@defined ...Fviii@undefined@err {#1}\else 
-                                                  \@latex@error {Invalid UTF...
-l.258 \end{tabulary}
-                    
-? 
-! Extra }, or forgotten \endgroup.
-<template> \unskip \relax \d@llarend \egroup 
-                                             \egroup \begingroup \CT@setup \...
-l.258 \end{tabulary}
-                    
-? 
-! Extra }, or forgotten \endgroup.
-<template> ...p \relax \d@llarend \egroup \egroup 
-                                                  \begingroup \CT@setup \CT@...
-l.258 \end{tabulary}
-                    
-? 
-! Missing \endgroup inserted.
-<inserted text> 
-                \endgroup 
-l.258 \end{tabulary}
-                    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.258 \end{tabulary}
-                    
-? 
-! Missing } inserted.
-<inserted text> 
-                }
-l.258 \end{tabulary}
-                    
+? y
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? y
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? y
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? y
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? y
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? y
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? y
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? y
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? y
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
 ? 
 
 ! LaTeX Error: Unicode character Θ (U+0398)
@@ -1151,42 +1169,72 @@ File: LAmeBLV.png Graphic file (type png)
 <use LAmeBLV.png>
 Package pdftex.def Info: LAmeBLV.png  used on input line 908.
 (pdftex.def)             Requested size: 469.76303pt x 266.74535pt.
-<KnNhvfN.png, id=315, 572.89032pt x 288.3272pt>
+<q9Cb6UY.png, id=315, 594.72188pt x 380.17032pt>
+File: q9Cb6UY.png Graphic file (type png)
+<use q9Cb6UY.png>
+Package pdftex.def Info: q9Cb6UY.png  used on input line 909.
+(pdftex.def)             Requested size: 469.75253pt x 300.29645pt.
+ [15 <./LAmeBLV.png> <./q9Cb6UY.png>]
+<KnNhvfN.png, id=323, 572.89032pt x 288.3272pt>
 File: KnNhvfN.png Graphic file (type png)
 <use KnNhvfN.png>
-Package pdftex.def Info: KnNhvfN.png  used on input line 920.
+Package pdftex.def Info: KnNhvfN.png  used on input line 921.
 (pdftex.def)             Requested size: 469.76436pt x 236.42981pt.
- [15 <./LAmeBLV.png>]
-<IcjCMiY.png, id=322, 542.025pt x 283.0575pt>
+<Y2RnMJ0.png, id=324, 403.5075pt x 184.43906pt>
+File: Y2RnMJ0.png Graphic file (type png)
+<use Y2RnMJ0.png>
+Package pdftex.def Info: Y2RnMJ0.png  used on input line 922.
+(pdftex.def)             Requested size: 403.50652pt x 184.4386pt.
+<IcjCMiY.png, id=325, 542.025pt x 283.0575pt>
 File: IcjCMiY.png Graphic file (type png)
 <use IcjCMiY.png>
-Package pdftex.def Info: IcjCMiY.png  used on input line 926.
+Package pdftex.def Info: IcjCMiY.png  used on input line 928.
 (pdftex.def)             Requested size: 469.77148pt x 245.32077pt.
- [16 <./KnNhvfN.png> <./IcjCMiY.png>]
-<yIyTBjj.png, id=329, 560.0925pt x 294.34969pt>
+<fDNyMXM.png, id=326, 398.23781pt x 232.61906pt>
+File: fDNyMXM.png Graphic file (type png)
+<use fDNyMXM.png>
+Package pdftex.def Info: fDNyMXM.png  used on input line 929.
+(pdftex.def)             Requested size: 398.23683pt x 232.61848pt.
+ [16 <./KnNhvfN.png> <./Y2RnMJ0.png>]
+<yIyTBjj.png, id=333, 560.0925pt x 294.34969pt>
 File: yIyTBjj.png Graphic file (type png)
 <use yIyTBjj.png>
-Package pdftex.def Info: yIyTBjj.png  used on input line 935.
+Package pdftex.def Info: yIyTBjj.png  used on input line 938.
 (pdftex.def)             Requested size: 469.77368pt x 246.87476pt.
-<AW5EJcA.png, id=330, 569.12625pt x 307.90031pt>
+<MTdLKKu.png, id=334, 259.7203pt x 174.6525pt>
+File: MTdLKKu.png Graphic file (type png)
+<use MTdLKKu.png>
+Package pdftex.def Info: MTdLKKu.png  used on input line 939.
+(pdftex.def)             Requested size: 259.71967pt x 174.65207pt.
+ [17 <./IcjCMiY.png> <./fDNyMXM.png>]
+<AW5EJcA.png, id=341, 569.12625pt x 307.90031pt>
 File: AW5EJcA.png Graphic file (type png)
 <use AW5EJcA.png>
-Package pdftex.def Info: AW5EJcA.png  used on input line 941.
+Package pdftex.def Info: AW5EJcA.png  used on input line 945.
 (pdftex.def)             Requested size: 469.7781pt x 254.14304pt.
- [17 <./yIyTBjj.png> <./AW5EJcA.png>]
-(./formelsamling.ind) [18] (./formelsamling.aux)
+<O28fyhK.png, id=342, 307.90031pt x 245.41687pt>
+File: O28fyhK.png Graphic file (type png)
+<use O28fyhK.png>
+Package pdftex.def Info: O28fyhK.png  used on input line 946.
+(pdftex.def)             Requested size: 307.89955pt x 245.41626pt.
+ [18 <./yIyTBjj.png> <./MTdLKKu.png>] [19 <./AW5EJcA.png> <./O28fyhK.png>]
+(./formelsamling.ind) [20] (./formelsamling.aux)
  ***********
 LaTeX2e <2023-11-01>
 L3 programming layer <2023-11-09>
  ***********
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `formelsamling.out' has not changed.
 (rerunfilecheck)             Checksum: F52DF607637224B7F952862C7813FB8A;7470.
  ) 
 Here is how much of TeX's memory you used:
- 16600 strings out of 474267
- 279070 string characters out of 5749988
+ 16642 strings out of 474267
+ 279834 string characters out of 5749988
  1977555 words of memory out of 5000000
- 38358 multiletter control sequences out of 15000+600000
+ 38398 multiletter control sequences out of 15000+600000
  620138 words of font info for 79 fonts, out of 8000000 for 9000
  1142 hyphenation exceptions out of 8191
  72i,12n,79p,348b,667s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1196,10 +1244,10 @@ s/type1/public/tex-gyre/qhvbi.pfb></usr/share/texmf/fonts/type1/public/tex-gyre
 xmf/fonts/type1/public/tex-gyre/qtmr.pfb></usr/share/texmf/fonts/type1/public/t
 ex-gyre/qtmri.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1x
 btt.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/txfonts/t1xtt.pfb>
-Output written on formelsamling.pdf (22 pages, 2783782 bytes).
+Output written on formelsamling.pdf (24 pages, 3561787 bytes).
 PDF statistics:
- 389 PDF objects out of 1000 (max. 8388607)
- 321 compressed objects within 4 object streams
- 74 named destinations out of 1000 (max. 500000)
- 459 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 407 PDF objects out of 1000 (max. 8388607)
+ 327 compressed objects within 4 object streams
+ 76 named destinations out of 1000 (max. 500000)
+ 484 words of extra memory for PDF output out of 10000 (max. 10000000)
 

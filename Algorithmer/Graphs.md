@@ -36,19 +36,24 @@ sæt nodes i rækkefølge efter det største tal. nodes kan godt have flere tal
 Bruges til at finde max netværks capacitet. Kan også give dig en iden om hvor dit netværk skal fobedres for den bedste effect
 
 ![Ford-Fulkerson](https://i.imgur.com/LAmeBLV.png)
+![Ford-Fulkerson2](https://i.imgur.com/q9Cb6UY.png)
 
 ## minimum spanning trees.
 træer der har den mindste vægt fra 1 node ud til alle andre nodes i systemet.
 
 ### kruskals Algoritme
 ![](https://i.imgur.com/KnNhvfN.png)
+![](https://i.imgur.com/Y2RnMJ0.png)
 ### prims Algoritme
 ![](https://i.imgur.com/IcjCMiY.png)
+![](https://i.imgur.com/fDNyMXM.png)
 
 ## korteste vej ( shortest path ) Algoritmer
 
 ### bellman-ford
 ![](https://i.imgur.com/yIyTBjj.png)
+![](https://i.imgur.com/MTdLKKu.png)
 
 ### dijsktra 
 ![](https://i.imgur.com/AW5EJcA.png)
+![](https://i.imgur.com/O28fyhK.png)

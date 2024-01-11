@@ -1,11 +1,11 @@
 # Fdb version 4
-["makeindex formelsamling.idx"] 1704280919 "formelsamling.idx" "formelsamling.ind" "formelsamling" 1704966679 0
-  "formelsamling.idx" 1704965908 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex formelsamling.idx"] 1704280919 "formelsamling.idx" "formelsamling.ind" "formelsamling" 1704969477 0
+  "formelsamling.idx" 1704969458 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
   "formelsamling.ilg"
   "formelsamling.ind"
   (rewritten before read)
-["pdflatex"] 1704965907 "formelsamling.tex" "formelsamling.pdf" "formelsamling" 1704966679 2
+["pdflatex"] 1704969458 "formelsamling.tex" "formelsamling.pdf" "formelsamling" 1704969477 2
   "/etc/texmf/web2c/texmf.cnf" 1703671284 475 c0e671620eb5563b2130f56340a5fde8 ""
   "/usr/share/texlive/texmf-dist/fonts/map/fontname/texfonts.map" 1577235249 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texlive/texmf-dist/fonts/tfm/jknappen/ec/ecrm1000.tfm" 1136768653 3584 adb004a0c8e7c46ee66cad73671f37b4 ""
@@ -151,19 +151,24 @@
   "IcjCMiY.png" 1703844733 226022 6b23f4a7606db47b8ba71b2cfc69ce4c ""
   "KnNhvfN.png" 1703844724 270589 c21872c96560badc63740e48253cf516 ""
   "LAmeBLV.png" 1703842662 204324 5ff73449a4ef5cadc20a51f86cb0718d ""
+  "MTdLKKu.png" 1704969246 112231 a60f4397a5a25257e9c6c59188fd4ea3 ""
+  "O28fyhK.png" 1704969231 148724 43c58041bfc23c7c767babff4802bf06 ""
   "UYALrtc.png" 1703839769 42463 6d6a5dabcd02a50ec1d259f853296246 ""
+  "Y2RnMJ0.png" 1704969194 119849 152cd93829e09d80a6db3d664795066f ""
   "cKChxwN.png" 1704279880 113343 cf8132904b64ea4577498525ae83b41e ""
   "coKFB7D.png" 1703764035 156917 f54db0da0aed760cd1824932389bc7ef ""
   "dKK1LtO.png" 1704280853 167406 e2d12ccaddcbaa39b1a8b729e8613cbb ""
   "dQXTubC.png" 1703841837 211928 57e3bf0c06daa149c55a9668ba453e60 ""
-  "formelsamling.aux" 1704966679 11665 49413593324df7c6c872146447a25802 "pdflatex"
+  "fDNyMXM.png" 1704969205 129369 296c9ecd0ee30bb0c36fd13533410d6e ""
+  "formelsamling.aux" 1704969477 11665 d6e7c3d1e5ff51989a45ab608e809e01 "pdflatex"
   "formelsamling.ind" 1704280919 0 d41d8cd98f00b204e9800998ecf8427e "makeindex formelsamling.idx"
-  "formelsamling.out" 1704966679 7470 f52df607637224b7f952862c7813fb8a "pdflatex"
-  "formelsamling.tex" 1704965907 29636 1a4da4896df1b3c005e1997418316052 ""
-  "formelsamling.toc" 1704966679 3944 41b651b17ff714a37b2a84c0d1100cfa "pdflatex"
+  "formelsamling.out" 1704969477 7470 f52df607637224b7f952862c7813fb8a "pdflatex"
+  "formelsamling.tex" 1704969458 29826 7b7fda6203eae2f84818dd88de7e220b ""
+  "formelsamling.toc" 1704969477 3944 6cef2a637a0fbbdd3c50b3bbb5220688 "pdflatex"
   "mypic.png" 1550566393 38185 0ee99fe5aafd4b17e417cf70eaeb1e50 ""
+  "q9Cb6UY.png" 1704969309 276141 6598fc13c5bb6a5962f7059616fee8bc ""
   "sphinx.sty" 1703690757 44560 f9fbf51072c954d129c9bd5284cc4ccf ""
-  "sphinxhighlight.sty" 1704965902 7553 83fb52292c17957d9f4aadcb28c57a87 ""
+  "sphinxhighlight.sty" 1704969453 7553 83fb52292c17957d9f4aadcb28c57a87 ""
   "sphinxlatexadmonitions.sty" 1703690757 10989 c38302e64c2bb47779f086869b246760 ""
   "sphinxlatexcontainers.sty" 1703690757 901 d3a3a1b7b2547f47ade2499350b5c420 ""
   "sphinxlatexgraphics.sty" 1703690757 4840 a9578332b6f3b35e198751fb632c9b79 ""
@@ -178,7 +183,7 @@
   "sphinxlatexstyletext.sty" 1703690757 8589 a7e8f95eb4fef6c1cd2623cd417d6467 ""
   "sphinxlatextables.sty" 1703690757 57830 16f2773b765508003aec5d08680f39b9 ""
   "sphinxmanual.cls" 1703690757 4241 7b0d7a37df7b5715fb0dbd585c52ecdb ""
-  "sphinxmessages.sty" 1704965907 743 bcc27354adf2b724192126d74e9e486d ""
+  "sphinxmessages.sty" 1704969458 743 bcc27354adf2b724192126d74e9e486d ""
   "sphinxoptionsgeometry.sty" 1703690757 2061 47bb34b8ed8a78823eb0c886abfb9f4d ""
   "sphinxoptionshyperref.sty" 1703690757 1094 79beb8b8a3f10784f8cce804e0f9d3aa ""
   "sphinxpackageboxes.sty" 1703690757 36615 1d74c63e665ede6c648fa08c42ea70fb ""
